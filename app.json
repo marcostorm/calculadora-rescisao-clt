@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Calculadora Rescisão CLT",
+    "slug": "calculadora-rescisao-clt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "calcrescisao",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8A05BE"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.marcostorm.calcrescisao"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#8A05BE"
+      },
+      "package": "com.marcostorm.calcrescisao",
+      "permissions": [
+        "com.google.android.gms.permission.AD_ID"
+      ]
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "TROCAR_DEPOIS_NO_EAS"
+      }
+    }
+  }
+}
