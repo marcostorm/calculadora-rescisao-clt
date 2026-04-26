@@ -2,6 +2,7 @@
   "expo": {
     "name": "Calculadora Rescisão CLT",
     "slug": "calculadora-rescisao-clt",
+    "owner": "marcostorm9",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -37,7 +38,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "TROCAR_DEPOIS_NO_EAS"
+        "projectId": "359b153d-5893-42d7-b0f3-d127a9a884a5"
       }
     }
   }
